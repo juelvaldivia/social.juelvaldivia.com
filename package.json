@@ -1,0 +1,36 @@
+{
+  "name": "activitypub",
+  "version": "0.0.1",
+  "description": "Library to use activity pub protocol",
+  "main": "server.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js",
+    "test": "jest",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [
+    "activitypub",
+    "typescript",
+    "fediverse",
+    "socialnetwork"
+  ],
+  "author": "Juel Valdivia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
